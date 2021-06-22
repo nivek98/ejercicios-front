@@ -39,6 +39,11 @@ img{
     justify-content: center;
     margin-top: 125px;
 }
+@media (max-width: 715px) {
+    .content-cards{
+      display: grid;
+    }
+  }
 .box{
     display: flex;
     flex-direction: column;
